@@ -1,0 +1,35 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+
+\PYG{k}{\PYGZbs{}def\PYGZbs{}swungdashversionnumber}\PYG{n+nb}{\PYGZob{}}1.0.0\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}ProvidesPackage}\PYG{n+nb}{\PYGZob{}}swungdash\PYG{n+nb}{\PYGZcb{}}
+  [2022/08/24 v1.0 code to typeset a swung dash]
+    \PYG{c}{\PYGZpc{} !TeX program = lualatex}
+\PYG{c}{\PYGZpc{} !TeX encoding = utf8}
+\PYG{c}{\PYGZpc{} This work may be distributed and/or modified under the}
+\PYG{c}{\PYGZpc{} conditions of the LaTeX Project Public License, either version 1.3}
+\PYG{c}{\PYGZpc{} of this license or (at your option) any later version.}
+\PYG{c}{\PYGZpc{} The latest version of this license is in}
+\PYG{c}{\PYGZpc{}   http://www.latex\PYGZhy{}project.org/lppl.txt}
+\PYG{c}{\PYGZpc{} and version 1.3 or later is part of all distributions of LaTeX}
+\PYG{c}{\PYGZpc{} version 2005/12/01 or later.}
+\PYG{c}{\PYGZpc{}}
+\PYG{c}{\PYGZpc{} This work has the LPPL maintenance status `maintained\PYGZsq{}.}
+\PYG{c}{\PYGZpc{}}
+\PYG{c}{\PYGZpc{} The Current Maintainer of this work is Elijah Z Granet}
+
+\PYG{k}{\PYGZbs{}RequirePackage}\PYG{n+nb}{\PYGZob{}}accsupp\PYG{n+nb}{\PYGZcb{}}\PYG{k}{\PYGZbs{}RequirePackage}\PYG{n+nb}{\PYGZob{}}graphicx\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}RequirePackage}\PYG{n+nb}{\PYGZob{}}iftex\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}newcommand}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}thetilde}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYG{k}{\PYGZbs{}symbol}\PYG{n+nb}{\PYGZob{}}\PYGZdq{}007E\PYG{n+nb}{\PYGZcb{}\PYGZcb{}}
+\PYG{k}{\PYGZbs{}newcommand}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}swungdash}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYG{k}{\PYGZbs{}BeginAccSupp}\PYG{n+nb}{\PYGZob{}}method=hex,unicode,ActualText= 2053\PYG{n+nb}{\PYGZcb{}}\PYG{c}{\PYGZpc{}}
+\PYG{k}{\PYGZbs{}resizebox}\PYG{n+nb}{\PYGZob{}}1em\PYG{n+nb}{\PYGZcb{}\PYGZob{}}!\PYG{n+nb}{\PYGZcb{}\PYGZob{}\PYGZob{}}\PYG{k}{\PYGZbs{}raisebox}\PYG{n+nb}{\PYGZob{}}\PYGZhy{}.1ex\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYG{k}{\PYGZbs{}scalebox}\PYG{n+nb}{\PYGZob{}}1.75\PYG{n+nb}{\PYGZcb{}}[1.1]\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}thetilde}\PYG{n+nb}{\PYGZcb{}\PYGZcb{}\PYGZcb{}\PYGZcb{}}
+\PYG{k}{\PYGZbs{}EndAccSupp}\PYG{n+nb}{\PYGZob{}\PYGZcb{}}\PYG{c}{\PYGZpc{}}
+\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}newcommand}\PYG{n+nb}{\PYGZob{}}\PYG{k}{\PYGZbs{}twiddle}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYG{l+s}{\PYGZdl{}}\PYG{n+nv}{\PYGZbs{}sim}\PYG{l+s}{\PYGZdl{}}\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}ifPDFTeX}   \PYG{n+nb}{\PYGZob{}}
+    \PYG{k}{\PYGZbs{}PackageError}\PYG{n+nb}{\PYGZob{}}swungdash\PYG{n+nb}{\PYGZcb{}}
+      \PYG{n+nb}{\PYGZob{}}You are using pdfTeX but this package only works
+      \PYG{k}{\PYGZbs{}MessageBreak} with XeTeX or LuaTeX\PYG{n+nb}{\PYGZcb{}\PYGZob{}\PYGZcb{}}
+    \PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}fi}
+
+\end{Verbatim}
